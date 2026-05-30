@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Regulatory Feed</title>
+    <link>https://example.gov/news</link>
+    <description>Sample regulatory press releases for SmartKit testing</description>
+
+    <item>
+      <title>FTC Takes Action Against XYZ Financial for Deceptive Lending Practices</title>
+      <link>https://example.gov/press/2024-001</link>
+      <description>The Federal Trade Commission today announced enforcement action against XYZ Financial Corp, imposing a $12 million civil penalty for violations of the FTC Act related to deceptive consumer lending practices. The settlement requires XYZ Financial to reform its disclosure procedures and submit to a compliance audit.</description>
+      <pubDate>Fri, 24 May 2024 14:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>FDIC Issues Guidance on Bank Merger Review Standards</title>
+      <link>https://example.gov/press/2024-002</link>
+      <description>The Federal Deposit Insurance Corporation released final guidance updating its bank merger review process, clarifying standards for evaluating financial stability, competitive effects, and community reinvestment. The guidance takes effect January 1, 2025 and replaces the 2008 policy statement.</description>
+      <pubDate>Wed, 22 May 2024 10:30:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>CFPB Proposes Rule to Limit Credit Card Late Fees</title>
+      <link>https://example.gov/press/2024-003</link>
+      <description>The Consumer Financial Protection Bureau issued a proposed rule that would cap credit card late fees at $8 for most issuers, down from the current safe harbor of $30. The proposed regulation would amend Regulation Z under the Truth in Lending Act. Public comments are due by March 15, 2024.</description>
+      <pubDate>Mon, 20 May 2024 09:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>SEC Charges Investment Adviser with Fraud and Breach of Fiduciary Duty</title>
+      <link>https://example.gov/press/2024-004</link>
+      <description>The Securities and Exchange Commission filed charges against Apex Capital Management LLC and its principal for orchestrating a $45 million fraud scheme. The SEC alleges the defendants misappropriated client funds and made false statements in regulatory filings. A court order froze the defendants' assets pending trial.</description>
+      <pubDate>Thu, 16 May 2024 13:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>OCC Issues Final Rule on Climate-Related Financial Risk Management</title>
+      <link>https://example.gov/press/2024-005</link>
+      <description>The Office of the Comptroller of the Currency published a final rule requiring large national banks to establish climate-related financial risk management frameworks. Banks with over $100 billion in assets must submit initial climate risk assessments by June 30, 2025. The rule aligns with guidance from the Basel Committee on Banking Supervision.</description>
+      <pubDate>Tue, 14 May 2024 11:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>DOJ and State AGs Announce $800M Settlement with Prescription Drug Distributor</title>
+      <link>https://example.gov/press/2024-006</link>
+      <description>The Department of Justice and a coalition of 38 state attorneys general announced an $800 million settlement with Meridian Drug Distribution over its role in the opioid crisis. The settlement includes compliance monitoring, operational reforms, and contributions to state abatement funds. The consent order requires board-level compliance oversight.</description>
+      <pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>CFTC Issues Advisory on AI Use in Commodity Trading</title>
+      <link>https://example.gov/press/2024-007</link>
+      <description>The Commodity Futures Trading Commission released a staff advisory bulletin addressing the use of artificial intelligence and machine learning algorithms in commodity trading. The advisory outlines risk management expectations, explainability requirements, and documentation standards for algorithmic trading systems subject to CFTC oversight.</description>
+      <pubDate>Wed, 08 May 2024 10:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>State Banking Regulator Orders Community Bank to Improve BSA/AML Controls</title>
+      <link>https://example.gov/press/2024-008</link>
+      <description>The state department of financial institutions issued a consent order requiring First Valley Community Bank to remediate deficiencies in its Bank Secrecy Act and anti-money laundering compliance program. The order requires the bank to hire an independent BSA officer and submit a corrective action plan within 60 days.</description>
+      <pubDate>Mon, 06 May 2024 09:30:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>

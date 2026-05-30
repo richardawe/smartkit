@@ -1,0 +1,33 @@
+# USER EDITS: keyword weights, thresholds, source trust
+
+scoring:
+  threshold: 0.1   # items below this score are dropped
+  max_items: 20    # maximum items shown in the dashboard
+
+# Format: "keyword": weight (float)
+# Positive = boost relevance, higher = more important
+keywords:
+  bank: 1.0
+  financial: 1.0
+  regulation: 1.5
+  enforcement: 2.0
+  penalty: 1.5
+  fine: 1.5
+  consumer: 1.0
+  fraud: 2.0
+  compliance: 1.5
+  guidance: 1.0
+  rule: 1.0
+  order: 1.0
+  settlement: 1.5
+  investigation: 1.5
+  violation: 2.0
+  action: 0.5
+  proposed: 0.5
+  final: 0.5
+
+source_trust:
+  default: 1.0
+  # Boost or reduce trust for specific sources by their "name" value above.
+  # Example:
+  # FTC Press Releases: 1.2

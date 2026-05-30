@@ -1,0 +1,16 @@
+# USER EDITS: dashboard title, schedule, and model selection
+
+dashboard:
+  title: SmartKit Intelligence Dashboard
+  subtitle: Regulatory & Compliance Monitor
+  schedule_note: Updated every 6 hours via GitHub Actions
+
+model:
+  # Tier 1: Set the OPENROUTER_API_KEY repo secret to enable LLM extraction.
+  # Default model is a free OpenRouter model. Update this string if it is retired.
+  # See https://openrouter.ai/models?q=:free for current free models.
+  name: meta-llama/llama-3.1-8b-instruct:free
+  max_tokens: 512
+  timeout_seconds: 30
+  # Tier 2: Change "name" to any OpenRouter-compatible model string,
+  # or point at another provider's base URL — see llm.py for details.

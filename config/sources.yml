@@ -1,0 +1,14 @@
+# USER EDITS: list of source URLs + type (rss/json/html)
+# Add your URLs here. Each source needs: url, type (rss/json/html), name.
+#
+# Supported types: rss, json, html
+sources:
+  - url: https://www.ftc.gov/feeds/press-release.xml
+    type: rss
+    name: FTC Press Releases
+  - url: https://www.fdic.gov/news/press-releases/press-releases-rss.xml
+    type: rss
+    name: FDIC Press Releases
+  - url: https://www.consumerfinance.gov/about-us/newsroom/feed/
+    type: rss
+    name: CFPB Newsroom
