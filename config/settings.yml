@@ -6,11 +6,16 @@ dashboard:
   schedule_note: Updated every 6 hours via GitHub Actions
 
 model:
-  # Tier 1: Set the OPENROUTER_API_KEY repo secret to enable LLM extraction.
-  # Default model is a free OpenRouter model. Update this string if it is retired.
-  # See https://openrouter.ai/models?q=:free for current free models.
+  # Tier 1 (default once key is added): free OpenRouter model.
+  # Add OPENROUTER_API_KEY as a GitHub repo secret to enable.
+  # Free-tier model availability rotates — update "name" if this one is retired.
+  # Current free models: https://openrouter.ai/models?q=:free
   name: meta-llama/llama-3.1-8b-instruct:free
   max_tokens: 512
   timeout_seconds: 30
-  # Tier 2: Change "name" to any OpenRouter-compatible model string,
-  # or point at another provider's base URL — see llm.py for details.
+
+  # Tier 2 (BYOK/model): change "name" to any OpenRouter-compatible model string.
+  # To use a different provider's endpoint, uncomment and set base_url:
+  # base_url: https://api.openai.com/v1        # OpenAI
+  # base_url: https://api.anthropic.com/v1     # Anthropic (Claude)
+  # The Authorization: Bearer <key> header format is used for all providers.
