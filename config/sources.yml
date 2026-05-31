@@ -8,9 +8,15 @@
 # To use: copy these three files to config/ (or just keep the defaults, since
 # config/ ships pre-loaded with this example).
 sources:
+  # Federal Register JSON API — all NCUA rulemaking and notices.
+  # Reliable, maintained by the Government Publishing Office.
+  - url: https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest&conditions[agencies][]=national-credit-union-administration
+    type: json
+    name: NCUA — Federal Register
+
+  # NCUA press releases (enforcement actions, conservatorships, guidance).
+  # If this URL stops working, check https://www.ncua.gov/newsroom for the
+  # current RSS path and update it here.
   - url: https://www.ncua.gov/newsroom/press-releases/rss
     type: rss
     name: NCUA Press Releases
-  - url: https://www.ncua.gov/regulation-supervision/policy-and-guidance/letters-credit-unions/rss
-    type: rss
-    name: NCUA Letters to Credit Unions
