@@ -1,10 +1,9 @@
 (function () {
   "use strict";
 
-  // Path is relative to dashboard/index.html
-  // Relative to wherever index.html is served from.
-  // Pages artifact puts data/ next to index.html; local preview: see SETUP.md.
-  var DATA_PATH = "data/latest.json";
+  // Data is injected by ../data/latest.js as window.SMARTKIT_DATA.
+  // Script tags work with file:// (double-click open) and GitHub Pages alike —
+  // no server required.
 
   var allItems = [];
 
@@ -103,36 +102,31 @@
     });
   }
 
-  fetch(DATA_PATH)
-    .then(function (r) {
-      if (!r.ok) throw new Error("HTTP " + r.status);
-      return r.json();
-    })
-    .then(function (data) {
-      document.getElementById("dash-title").textContent =
-        data.title || "SmartKit Dashboard";
-      document.getElementById("dash-subtitle").textContent = data.subtitle || "";
-      document.getElementById("generated-at").textContent = data.generated_at
-        ? new Date(data.generated_at).toLocaleString()
-        : "—";
-      document.getElementById("item-count").textContent =
-        data.item_count != null ? data.item_count : "—";
-      if (data.schedule_note) {
-        document.getElementById("schedule-note").textContent = data.schedule_note;
-      }
-      document.title = data.title || "SmartKit Dashboard";
+  // Read data injected by data/latest.js
+  var data = window.SMARTKIT_DATA;
+  if (!data) {
+    document.getElementById("cards").innerHTML =
+      '<div class="empty">'
+      + "No data yet.<br>"
+      + "Run <code>python pipeline/main.py</code> to generate data, then reload."
+      + "</div>";
+  } else {
+    document.getElementById("dash-title").textContent = data.title || "SmartKit Dashboard";
+    document.getElementById("dash-subtitle").textContent = data.subtitle || "";
+    document.getElementById("generated-at").textContent = data.generated_at
+      ? new Date(data.generated_at).toLocaleString()
+      : "—";
+    document.getElementById("item-count").textContent =
+      data.item_count != null ? data.item_count : "—";
+    if (data.schedule_note) {
+      document.getElementById("schedule-note").textContent = data.schedule_note;
+    }
+    document.title = data.title || "SmartKit Dashboard";
 
-      allItems = data.items || [];
-      populateSources(allItems);
-      applyFilters();
-    })
-    .catch(function (err) {
-      document.getElementById("cards").innerHTML =
-        '<div class="empty">'
-        + "Could not load data: " + escapeHtml(String(err)) + "<br>"
-        + "Run <code>python pipeline/main.py</code> first to generate data."
-        + "</div>";
-    });
+    allItems = data.items || [];
+    populateSources(allItems);
+    applyFilters();
+  }
 
   document.getElementById("search").addEventListener("input", applyFilters);
   document.getElementById("type-filter").addEventListener("change", applyFilters);

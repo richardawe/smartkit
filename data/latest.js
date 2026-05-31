@@ -1,0 +1,8 @@
+window.SMARTKIT_DATA = {
+  "generated_at": "2026-05-31T14:26:23.157303+00:00",
+  "title": "NCUA Credit Union Monitor",
+  "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
+  "schedule_note": "Updated every 6 hours via GitHub Actions",
+  "item_count": 0,
+  "items": []
+};

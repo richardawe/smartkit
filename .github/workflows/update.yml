@@ -53,15 +53,16 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update dashboard data [skip ci]"
           git push
 
-      # Assemble the Pages artifact: index.html and app.js at the root so the
-      # Pages URL (https://user.github.io/repo/) serves the dashboard directly.
-      # data/latest.json sits next to index.html so the "data/latest.json"
-      # fetch path in app.js resolves correctly.
+      # Assemble the Pages artifact.
+      # Mirror the repo layout so ../data/latest.js resolves identically
+      # whether opened as a local file or served from GitHub Pages.
+      # A root index.html redirects the bare Pages URL to dashboard/.
       - name: Assemble Pages site
         run: |
-          mkdir -p _site/data
-          cp dashboard/index.html dashboard/app.js _site/
-          cp data/latest.json _site/data/latest.json
+          mkdir -p _site/dashboard _site/data
+          cp dashboard/index.html dashboard/app.js _site/dashboard/
+          cp data/latest.json data/latest.js _site/data/
+          printf '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=dashboard/"><title>SmartKit</title></head><body></body></html>\n' > _site/index.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
