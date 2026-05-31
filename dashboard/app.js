@@ -2,7 +2,9 @@
   "use strict";
 
   // Path is relative to dashboard/index.html
-  var DATA_PATH = "../data/latest.json";
+  // Relative to wherever index.html is served from.
+  // Pages artifact puts data/ next to index.html; local preview: see SETUP.md.
+  var DATA_PATH = "data/latest.json";
 
   var allItems = [];
 
