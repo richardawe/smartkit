@@ -86,10 +86,11 @@ def fetch_json(url: str, source_name: str) -> list[dict]:
                 continue
             title = entry.get("title", "") or entry.get("name", "")
             summary = (entry.get("summary", "") or entry.get("description", "")
-                       or entry.get("content_text", ""))
-            link = entry.get("url", "") or entry.get("link", "") or entry.get("id", "")
+                       or entry.get("content_text", "") or entry.get("abstract", ""))
+            link = (entry.get("url", "") or entry.get("link", "")
+                    or entry.get("html_url", "") or entry.get("id", ""))
             published = (entry.get("date_published", "") or entry.get("published", "")
-                         or entry.get("date", ""))
+                         or entry.get("publication_date", "") or entry.get("date", ""))
             raw_text = f"{title} {summary}"
             items.append(_normalize(title, summary, link, published, raw_text, source_name))
 
