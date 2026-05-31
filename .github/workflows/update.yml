@@ -53,13 +53,14 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update dashboard data [skip ci]"
           git push
 
-      # Assemble the Pages artifact: mirror the repo structure so that
-      # the relative path ../data/latest.json in app.js resolves correctly
-      # whether users serve locally (repo root) or visit the Pages URL.
+      # Assemble the Pages artifact: index.html and app.js at the root so the
+      # Pages URL (https://user.github.io/repo/) serves the dashboard directly.
+      # data/latest.json sits next to index.html so the "data/latest.json"
+      # fetch path in app.js resolves correctly.
       - name: Assemble Pages site
         run: |
-          mkdir -p _site/dashboard _site/data
-          cp dashboard/index.html dashboard/app.js _site/dashboard/
+          mkdir -p _site/data
+          cp dashboard/index.html dashboard/app.js _site/
           cp data/latest.json _site/data/latest.json
 
       - name: Configure Pages
