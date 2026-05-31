@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-30T12:27:01.717220+00:00",
-  "title": "SmartKit Intelligence Dashboard",
-  "subtitle": "Regulatory & Compliance Monitor",
+  "generated_at": "2026-05-31T10:14:08.760859+00:00",
+  "title": "NCUA Credit Union Monitor",
+  "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
   "item_count": 7,
   "items": [
@@ -10,8 +10,8 @@
       "summary": "The Federal Trade Commission today announced enforcement action against XYZ Financial Corp, imposing a $12 million civil penalty for violations of the FTC Act related to deceptive consumer lending practices.",
       "url": "https://example.gov/press/2024-001",
       "published": "2024-05-24T14:00:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 11.0,
+      "source": "Sample Feed",
+      "score": 8.5,
       "action_type": "enforcement",
       "entities": [
         "Takes Action Against",
@@ -20,63 +20,53 @@
       ],
       "dates": [],
       "key_terms": [
-        "financial",
         "enforcement",
-        "penalty",
-        "consumer",
-        "compliance",
-        "settlement",
         "violation",
-        "action"
+        "compliance",
+        "penalty",
+        "settlement"
       ],
       "extraction_tier": 0
     },
     {
-      "title": "CFPB Proposes Rule to Limit Credit Card Late Fees",
-      "summary": "The Consumer Financial Protection Bureau issued a proposed rule that would cap credit card late fees at $8 for most issuers, down from the current safe harbor of $30. The proposed regulation would amend Regulation Z under the Truth in Lending Act.",
-      "url": "https://example.gov/press/2024-003",
-      "published": "2024-05-20T09:00:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 5.0,
+      "title": "DOJ and State AGs Announce $800M Settlement with Prescription Drug Distributor",
+      "summary": "The Department of Justice and a coalition of 38 state attorneys general announced an $800 million settlement with Meridian Drug Distribution over its role in the opioid crisis.",
+      "url": "https://example.gov/press/2024-006",
+      "published": "2024-05-10T16:00:00+00:00",
+      "source": "Sample Feed",
+      "score": 4.0,
       "action_type": "enforcement",
       "entities": [
-        "Proposes Rule",
-        "Limit Credit Card Late Fees The Consumer Financial Protection Bureau",
-        "Lending Act"
-      ],
-      "dates": [
-        "March 15, 2024"
-      ],
-      "key_terms": [
-        "financial",
-        "regulation",
-        "consumer",
-        "rule",
-        "proposed"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "State Banking Regulator Orders Community Bank to Improve BSA/AML Controls",
-      "summary": "The state department of financial institutions issued a consent order requiring First Valley Community Bank to remediate deficiencies in its Bank Secrecy Act and anti-money laundering compliance program.",
-      "url": "https://example.gov/press/2024-008",
-      "published": "2024-05-06T09:30:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 5.0,
-      "action_type": "enforcement",
-      "entities": [
-        "State Banking Regulator Orders Community Bank",
-        "Controls The",
-        "First Valley Community Bank",
-        "Bank Secrecy Act"
+        "Prescription Drug Distributor The Department",
+        "Meridian Drug Distribution"
       ],
       "dates": [],
       "key_terms": [
-        "bank",
-        "financial",
-        "compliance",
         "order",
-        "action"
+        "compliance",
+        "settlement"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "FDIC Issues Guidance on Bank Merger Review Standards",
+      "summary": "The Federal Deposit Insurance Corporation released final guidance updating its bank merger review process, clarifying standards for evaluating financial stability, competitive effects, and community reinvestment.",
+      "url": "https://example.gov/press/2024-002",
+      "published": "2024-05-22T10:30:00+00:00",
+      "source": "Sample Feed",
+      "score": 3.0,
+      "action_type": "guidance",
+      "entities": [
+        "Issues Guidance",
+        "Bank Merger Review Standards The Federal Deposit Insurance Corporation"
+      ],
+      "dates": [
+        "January 1, 2025"
+      ],
+      "key_terms": [
+        "merger",
+        "guidance",
+        "final"
       ],
       "extraction_tier": 0
     },
@@ -85,8 +75,8 @@
       "summary": "The Office of the Comptroller of the Currency published a final rule requiring large national banks to establish climate-related financial risk management frameworks.",
       "url": "https://example.gov/press/2024-005",
       "published": "2024-05-14T11:00:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 4.5,
+      "source": "Sample Feed",
+      "score": 2.5,
       "action_type": "rulemaking",
       "entities": [
         "Issues Final Rule",
@@ -98,8 +88,6 @@
         "June 30, 2025"
       ],
       "key_terms": [
-        "bank",
-        "financial",
         "guidance",
         "rule",
         "final"
@@ -107,45 +95,45 @@
       "extraction_tier": 0
     },
     {
-      "title": "DOJ and State AGs Announce $800M Settlement with Prescription Drug Distributor",
-      "summary": "The Department of Justice and a coalition of 38 state attorneys general announced an $800 million settlement with Meridian Drug Distribution over its role in the opioid crisis.",
-      "url": "https://example.gov/press/2024-006",
-      "published": "2024-05-10T16:00:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 4.0,
+      "title": "State Banking Regulator Orders Community Bank to Improve BSA/AML Controls",
+      "summary": "The state department of financial institutions issued a consent order requiring First Valley Community Bank to remediate deficiencies in its Bank Secrecy Act and anti-money laundering compliance program.",
+      "url": "https://example.gov/press/2024-008",
+      "published": "2024-05-06T09:30:00+00:00",
+      "source": "Sample Feed",
+      "score": 2.5,
       "action_type": "enforcement",
       "entities": [
-        "Prescription Drug Distributor The Department",
-        "Meridian Drug Distribution"
+        "State Banking Regulator Orders Community Bank",
+        "Controls The",
+        "First Valley Community Bank",
+        "Bank Secrecy Act"
       ],
       "dates": [],
       "key_terms": [
-        "compliance",
         "order",
-        "settlement"
+        "compliance"
       ],
       "extraction_tier": 0
     },
     {
-      "title": "FDIC Issues Guidance on Bank Merger Review Standards",
-      "summary": "The Federal Deposit Insurance Corporation released final guidance updating its bank merger review process, clarifying standards for evaluating financial stability, competitive effects, and community reinvestment.",
-      "url": "https://example.gov/press/2024-002",
-      "published": "2024-05-22T10:30:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 3.5,
-      "action_type": "guidance",
+      "title": "CFPB Proposes Rule to Limit Credit Card Late Fees",
+      "summary": "The Consumer Financial Protection Bureau issued a proposed rule that would cap credit card late fees at $8 for most issuers, down from the current safe harbor of $30. The proposed regulation would amend Regulation Z under the Truth in Lending Act.",
+      "url": "https://example.gov/press/2024-003",
+      "published": "2024-05-20T09:00:00+00:00",
+      "source": "Sample Feed",
+      "score": 1.5,
+      "action_type": "enforcement",
       "entities": [
-        "Issues Guidance",
-        "Bank Merger Review Standards The Federal Deposit Insurance Corporation"
+        "Proposes Rule",
+        "Limit Credit Card Late Fees The Consumer Financial Protection Bureau",
+        "Lending Act"
       ],
       "dates": [
-        "January 1, 2025"
+        "March 15, 2024"
       ],
       "key_terms": [
-        "bank",
-        "financial",
-        "guidance",
-        "final"
+        "rule",
+        "proposed"
       ],
       "extraction_tier": 0
     },
@@ -154,8 +142,8 @@
       "summary": "The Securities and Exchange Commission filed charges against Apex Capital Management LLC and its principal for orchestrating a $45 million fraud scheme.",
       "url": "https://example.gov/press/2024-004",
       "published": "2024-05-16T13:00:00+00:00",
-      "source": "Sample Regulatory Feed",
-      "score": 3.0,
+      "source": "Sample Feed",
+      "score": 1.0,
       "action_type": "enforcement",
       "entities": [
         "Charges Investment Adviser",
@@ -165,7 +153,6 @@
       ],
       "dates": [],
       "key_terms": [
-        "fraud",
         "order"
       ],
       "extraction_tier": 0

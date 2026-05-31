@@ -23,10 +23,21 @@ def _normalize(title: str, summary: str, url: str, published: str, raw_text: str
     }
 
 
+_HEADERS = {"User-Agent": "SmartKit/1.0"}
+_TIMEOUT = 15
+
+
 def fetch_rss(url: str, source_name: str) -> list[dict]:
     logger.info(f"Fetching RSS: {source_name} ({url})")
     try:
-        feed = feedparser.parse(url)
+        # Use requests for the HTTP fetch so we get timeout + consistent error handling;
+        # feedparser is used only as a parser, not a fetcher.
+        if url.startswith(("http://", "https://")):
+            resp = requests.get(url, timeout=_TIMEOUT, headers=_HEADERS)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
+        else:
+            feed = feedparser.parse(url)  # local file path for testing
         items = []
         for entry in feed.entries:
             title = entry.get("title", "")
@@ -52,7 +63,7 @@ def fetch_rss(url: str, source_name: str) -> list[dict]:
 def fetch_json(url: str, source_name: str) -> list[dict]:
     logger.info(f"Fetching JSON: {source_name} ({url})")
     try:
-        resp = requests.get(url, timeout=15, headers={"User-Agent": "SmartKit/1.0"})
+        resp = requests.get(url, timeout=_TIMEOUT, headers=_HEADERS)
         resp.raise_for_status()
         data = resp.json()
 
@@ -92,7 +103,7 @@ def fetch_json(url: str, source_name: str) -> list[dict]:
 def fetch_html(url: str, source_name: str) -> list[dict]:
     logger.info(f"Fetching HTML: {source_name} ({url})")
     try:
-        resp = requests.get(url, timeout=15, headers={"User-Agent": "SmartKit/1.0"})
+        resp = requests.get(url, timeout=_TIMEOUT, headers=_HEADERS)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
 
