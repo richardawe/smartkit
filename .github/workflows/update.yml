@@ -1,0 +1,75 @@
+name: Update SmartKit Dashboard
+
+# Triggers: automatic every 6 hours + manual "Run workflow" button in the
+# Actions tab. Both respect the optional OPENROUTER_API_KEY secret.
+"on":
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+# Prevent two runs from deploying simultaneously (a half-deploy leaves the
+# dashboard inconsistent). Let the in-flight run finish before starting another.
+concurrency:
+  group: smartkit-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # push updated data/latest.json back to the repo
+  pages: write      # deploy to GitHub Pages
+  id-token: write   # OIDC token required by deploy-pages
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy-pages.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # OPENROUTER_API_KEY is optional — pipeline degrades to Tier 0 if absent
+      - name: Run pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python pipeline/main.py
+
+      # Only commit when data actually changed to avoid empty commits
+      - name: Commit data/latest.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          git diff --staged --quiet || git commit -m "chore: update dashboard data [skip ci]"
+          git push
+
+      # Assemble the Pages artifact: mirror the repo structure so that
+      # the relative path ../data/latest.json in app.js resolves correctly
+      # whether users serve locally (repo root) or visit the Pages URL.
+      - name: Assemble Pages site
+        run: |
+          mkdir -p _site/dashboard _site/data
+          cp dashboard/index.html dashboard/app.js _site/dashboard/
+          cp data/latest.json _site/data/latest.json
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy-pages
+        uses: actions/deploy-pages@v4
