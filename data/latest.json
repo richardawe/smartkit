@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T03:36:22.731368+00:00",
+  "generated_at": "2026-06-09T09:45:56.641369+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -178,6 +178,30 @@
       "extraction_tier": 0
     },
     {
+      "title": "Dependent Care and Board Member Expense Reimbursement",
+      "summary": "The NCUA Board is amending its regulations concerning the reimbursement of reasonable expenses for federal credit union (FCU) officials.",
+      "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11507/dependent-care-and-board-member-expense-reimbursement",
+      "published": "2026-06-09",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Dependent Care",
+        "Board Member Expense Reimbursement The"
+      ],
+      "dates": [
+        "January 26, 2026"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
       "title": "Request for Information Regarding Enhancing and Streamlining Data Collection From Credit Unions",
       "summary": "The National Credit Union Administration (NCUA) is issuing this request for information (RFI) on opportunities to enhance and streamline NCUA's data collections.",
       "url": "https://www.federalregister.gov/documents/2026/04/24/2026-08023/request-for-information-regarding-enhancing-and-streamlining-data-collection-from-credit-unions",
@@ -197,6 +221,28 @@
         "credit union",
         "ncua",
         "corporate credit union"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Preemption-Federal Credit Union Non-Interest Charges and Fees",
+      "summary": "The NCUA Board is adopting an interim final rule to clarify federal credit unions' (FCUs) power to charge non-interest charges and fees includes the power to assess, collect, impose, levy, receive, reserve, take, or otherwise obtain non-interest char",
+      "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11559/preemption-federal-credit-union-non-interest-charges-and-fees",
+      "published": "2026-06-09",
+      "source": "NCUA — Federal Register",
+      "score": 5.5,
+      "action_type": "enforcement",
+      "entities": [
+        "Federal Credit Union Non",
+        "Interest Charges",
+        "Fees The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "final"
       ],
       "extraction_tier": 0
     },
@@ -300,44 +346,6 @@
         "Comments As",
         "Paperwork Reduction Act",
         "The National Credit Union Administration"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Refund of Interest",
-      "summary": "The NCUA Board (Board) is issuing for public comment a proposal to rescind its regulation that addresses the refund of interest to members.",
-      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03756/refund-of-interest",
-      "published": "2026-02-25",
-      "source": "NCUA — Federal Register",
-      "score": 4.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Interest The",
-        "Federal Credit Union Act"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Purchase, Sale, and Pledge of Eligible Obligations",
-      "summary": "The NCUA Board (Board) solicits public comment on a proposal to streamline its regulations governing the purchase, sale, and pledge of eligible obligations.",
-      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03755/purchase-sale-and-pledge-of-eligible-obligations",
-      "published": "2026-02-25",
-      "source": "NCUA — Federal Register",
-      "score": 4.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Eligible Obligations The",
-        "The Board"
       ],
       "dates": [],
       "key_terms": [
