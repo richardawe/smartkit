@@ -1,8 +1,426 @@
 {
-  "generated_at": "2026-06-14T19:28:14.034211+00:00",
+  "generated_at": "2026-06-15T04:22:33.769433+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
-  "item_count": 0,
-  "items": []
+  "item_count": 18,
+  "items": [
+    {
+      "title": "Requirements for Insurance",
+      "summary": "The NCUA Board (Board) is publishing this proposed rule to amend its regulations governing requirements for share insurance.",
+      "url": "https://www.federalregister.gov/documents/2026/05/07/2026-09010/requirements-for-insurance",
+      "published": "2026-05-07",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Insurance The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "compliance",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Chartering and Field of Membership",
+      "summary": "The NCUA Board (Board) proposes to amend the associational common bond provisions of its chartering and field of membership (FOM) rules.",
+      "url": "https://www.federalregister.gov/documents/2026/04/08/2026-06757/chartering-and-field-of-membership",
+      "published": "2026-04-08",
+      "source": "NCUA — Federal Register",
+      "score": 8.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Membership The",
+        "The Board",
+        "Federal Credit Union"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "field of membership",
+        "chartering",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs",
+      "summary": "The Office of the Comptroller of the Currency (OCC), Federal Deposit Insurance Corporation (FDIC), and the National Credit Union Administration (NCUA) (collectively, \"the Agencies\" or \"Agency\" when referencing the singular) are inviting comment on a ",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06948/anti-money-laundering-and-countering-the-financing-of-terrorism-programs",
+      "published": "2026-04-10",
+      "source": "NCUA — Federal Register",
+      "score": 7.5,
+      "action_type": "enforcement",
+      "entities": [
+        "Money Laundering",
+        "Terrorism Programs The Office",
+        "Federal Deposit Insurance Corporation",
+        "National Credit Union Administration",
+        "Financial Crimes Enforcement Network",
+        "Money Laundering Act",
+        "Bank Secrecy Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "enforcement",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Regulatory Publication and Voluntary Review as Contemplated by the Economic Growth and Regulatory Paperwork Reduction Act of 1996",
+      "summary": "As contemplated by the Economic Growth and Regulatory Paperwork Reduction Act of 1996, the NCUA is voluntarily reviewing agency regulations to identify rules that are outdated, unnecessary, or unduly burdensome.",
+      "url": "https://www.federalregister.gov/documents/2026/03/03/2026-04154/regulatory-publication-and-voluntary-review-as-contemplated-by-the-economic-growth-and-regulatory",
+      "published": "2026-03-03",
+      "source": "NCUA — Federal Register",
+      "score": 7.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Regulatory Publication",
+        "Voluntary Review",
+        "Economic Growth",
+        "Regulatory Paperwork Reduction Act",
+        "Federal Register",
+        "Corporate Credit Unions",
+        "Money Laundering",
+        "Bank Secrecy Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "corporate credit union",
+        "rule",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Bank Conversions and Mergers, Subpart C-Merger of Insured Credit Unions Into Banks",
+      "summary": "The NCUA Board (Board) is proposing to amend its regulations governing the merger of insured credit unions into banks. The Board proposes to eliminate certain prescriptive procedural, disclosure, and communication requirements.",
+      "url": "https://www.federalregister.gov/documents/2026/04/22/2026-07806/bank-conversions-and-mergers-subpart-c-merger-of-insured-credit-unions-into-banks",
+      "published": "2026-04-22",
+      "source": "NCUA — Federal Register",
+      "score": 7.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Bank Conversions",
+        "Insured Credit Unions Into Banks The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "merger",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Third-Party Servicing of Indirect Vehicle Loans",
+      "summary": "The NCUA Board (Board) is seeking comment on a proposed rule that would remove the NCUA's unnecessarily prescriptive regulation regarding third-party servicing of indirect vehicle loans.",
+      "url": "https://www.federalregister.gov/documents/2026/03/25/2026-05797/third-party-servicing-of-indirect-vehicle-loans",
+      "published": "2026-03-25",
+      "source": "NCUA — Federal Register",
+      "score": 7.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Party Servicing",
+        "Indirect Vehicle Loans The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "compliance",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the National Credit Union Administration",
+      "summary": "The NCUA Board (Board) is seeking comment on proposed regulations to implement portions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act).",
+      "url": "https://www.federalregister.gov/documents/2026/05/18/2026-09915/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+      "published": "2026-05-18",
+      "source": "NCUA — Federal Register",
+      "score": 6.5,
+      "action_type": "enforcement",
+      "entities": [
+        "Establishing National Innovation",
+        "Stablecoins Act",
+        "Entities Subject",
+        "National Credit Union Administration The",
+        "Payment Stablecoin",
+        "In February",
+        "Payment Stablecoins"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Dependent Care and Board Member Expense Reimbursement",
+      "summary": "The NCUA Board is amending its regulations concerning the reimbursement of reasonable expenses for federal credit union (FCU) officials.",
+      "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11507/dependent-care-and-board-member-expense-reimbursement",
+      "published": "2026-06-09",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Dependent Care",
+        "Board Member Expense Reimbursement The"
+      ],
+      "dates": [
+        "January 26, 2026"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Request for Information Regarding Enhancing and Streamlining Data Collection From Credit Unions",
+      "summary": "The National Credit Union Administration (NCUA) is issuing this request for information (RFI) on opportunities to enhance and streamline NCUA's data collections.",
+      "url": "https://www.federalregister.gov/documents/2026/04/24/2026-08023/request-for-information-regarding-enhancing-and-streamlining-data-collection-from-credit-unions",
+      "published": "2026-04-24",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "other",
+      "entities": [
+        "Information Regarding Enhancing",
+        "Streamlining Data Collection From Credit Unions The National Credit Union Administration",
+        "Call Report",
+        "Corporate Credit Union Call Report",
+        "Corporate Call Report"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "corporate credit union"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Preemption-Federal Credit Union Non-Interest Charges and Fees",
+      "summary": "The NCUA Board is adopting an interim final rule to clarify federal credit unions' (FCUs) power to charge non-interest charges and fees includes the power to assess, collect, impose, levy, receive, reserve, take, or otherwise obtain non-interest char",
+      "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11559/preemption-federal-credit-union-non-interest-charges-and-fees",
+      "published": "2026-06-09",
+      "source": "NCUA — Federal Register",
+      "score": 5.5,
+      "action_type": "enforcement",
+      "entities": [
+        "Federal Credit Union Non",
+        "Interest Charges",
+        "Fees The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Statutory Liens",
+      "summary": "The NCUA Board (Board) is publishing this proposed rule to remove a provision of NCUA regulations regarding federal credit unions' (FCUs) statutory lien authority.",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03758/statutory-liens",
+      "published": "2026-02-25",
+      "source": "NCUA — Federal Register",
+      "score": 5.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Statutory Liens The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Credit Union Service Contracts",
+      "summary": "The NCUA Board (Board) is proposing to revise its regulations governing the organization and operation of federal credit unions (FCUs) by eliminating a provision related to credit union service contracts.",
+      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03757/credit-union-service-contracts",
+      "published": "2026-02-25",
+      "source": "NCUA — Federal Register",
+      "score": 5.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Credit Union Service Contracts The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collections for Comments Request: Proposed Collections",
+      "summary": "The National Credit Union Administration (NCUA) will submit the following information collection requests to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the da",
+      "url": "https://www.federalregister.gov/documents/2026/05/05/2026-08735/renewal-of-agency-information-collections-for-comments-request-proposed-collections",
+      "published": "2026-05-05",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "guidance",
+      "entities": [
+        "Agency Information Collections",
+        "Comments Request",
+        "Proposed Collections The National Credit Union Administration",
+        "Paperwork Reduction Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Proposed New and Renewal of Agency Information Collections; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/04/16/2026-07415/proposed-new-and-renewal-of-agency-information-collections-request-for-comments",
+      "published": "2026-04-16",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "other",
+      "entities": [
+        "Proposed New",
+        "Agency Information Collections",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collections of Previously Approved Collections; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03802/renewal-of-agency-information-collections-of-previously-approved-collections-request-for-comments",
+      "published": "2026-02-26",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "other",
+      "entities": [
+        "Agency Information Collections",
+        "Previously Approved Collections",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Thresholds Increase for the Major Assets Prohibition of the Depository Institution Management Interlocks Act Rule",
+      "summary": "The NCUA Board (Board) is seeking comment on a proposed rule that would increase two thresholds in its regulation implementing management official interlocks for purposes of the Depository Institution Management Interlocks Act (DIMIA).",
+      "url": "https://www.federalregister.gov/documents/2026/05/07/2026-09009/thresholds-increase-for-the-major-assets-prohibition-of-the-depository-institution-management",
+      "published": "2026-05-07",
+      "source": "NCUA — Federal Register",
+      "score": 3.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Thresholds Increase",
+        "Major Assets Prohibition",
+        "Depository Institution Management Interlocks Act Rule The",
+        "Depository Institution Management Interlocks Act",
+        "United States"
+      ],
+      "dates": [],
+      "key_terms": [
+        "ncua",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines",
+      "summary": "On April 24, 2024, the NCUA Board (Board) published an advance notice of proposed rulemaking (ANPR) to solicit comments on ways the agency can improve and update its vital records preservation program regulation and accompanying guidelines.",
+      "url": "https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
+      "published": "2026-03-11",
+      "source": "NCUA — Federal Register",
+      "score": 3.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Records Preservation Program",
+        "Record Retention Guidelines",
+        "Catastrophic Act Preparedness Guidelines On April",
+        "The Board"
+      ],
+      "dates": [
+        "April 24, 2024"
+      ],
+      "key_terms": [
+        "ncua",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Regulation for Federal Financial Assistance",
+      "summary": "The Office of Management and Budget (OMB) proposes to revise the Guidance for Federal Financial Assistance to improve government- wide policies and requirements related to the management of grants, cooperative agreements, and other forms of assistanc",
+      "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10817/regulation-for-federal-financial-assistance",
+      "published": "2026-05-29",
+      "source": "NCUA — Federal Register",
+      "score": 2.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Federal Financial Assistance The Office",
+        "Federal Financial Assistance",
+        "Federal Government"
+      ],
+      "dates": [],
+      "key_terms": [
+        "guidance",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    }
+  ]
 }
