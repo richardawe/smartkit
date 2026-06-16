@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T04:16:04.230132+00:00",
+  "generated_at": "2026-06-16T11:12:39.146045+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -268,22 +268,27 @@
       "extraction_tier": 0
     },
     {
-      "title": "Credit Union Service Contracts",
-      "summary": "The NCUA Board (Board) is proposing to revise its regulations governing the organization and operation of federal credit unions (FCUs) by eliminating a provision related to credit union service contracts.",
-      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03757/credit-union-service-contracts",
-      "published": "2026-02-25",
+      "title": "Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines",
+      "summary": "On March 11, 2026, the NCUA (or `agency') published a proposed rule to solicit comments on ways to improve and update the vital records preservation program regulation and accompanying guidelines.",
+      "url": "https://www.federalregister.gov/documents/2026/06/16/2026-12058/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
+      "published": "2026-06-16",
       "source": "NCUA — Federal Register",
-      "score": 5.5,
+      "score": 5.0,
       "action_type": "rulemaking",
       "entities": [
-        "Credit Union Service Contracts The",
-        "The Board"
+        "Records Preservation Program",
+        "Record Retention Guidelines",
+        "Catastrophic Act Preparedness Guidelines On March"
       ],
-      "dates": [],
+      "dates": [
+        "March 11, 2026"
+      ],
       "key_terms": [
-        "credit union",
         "ncua",
-        "compliance"
+        "guidance",
+        "rule",
+        "proposed",
+        "final"
       ],
       "extraction_tier": 0
     },
