@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-20T03:45:47.324386+00:00",
+  "generated_at": "2026-06-20T08:58:17.701343+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
-  "item_count": 18,
+  "item_count": 17,
   "items": [
     {
       "title": "Requirements for Insurance",
@@ -243,27 +243,6 @@
         "ncua",
         "rule",
         "final"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Statutory Liens",
-      "summary": "The NCUA Board (Board) is publishing this proposed rule to remove a provision of NCUA regulations regarding federal credit unions' (FCUs) statutory lien authority.",
-      "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03758/statutory-liens",
-      "published": "2026-02-25",
-      "source": "NCUA — Federal Register",
-      "score": 5.5,
-      "action_type": "rulemaking",
-      "entities": [
-        "Statutory Liens The",
-        "The Board"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "rule",
-        "proposed"
       ],
       "extraction_tier": 0
     },
