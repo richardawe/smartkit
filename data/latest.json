@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T09:22:53.557315+00:00",
+  "generated_at": "2026-06-25T14:35:09.633944+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -76,34 +76,6 @@
         "enforcement",
         "rule",
         "proposed"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Regulatory Publication and Voluntary Review as Contemplated by the Economic Growth and Regulatory Paperwork Reduction Act of 1996",
-      "summary": "As contemplated by the Economic Growth and Regulatory Paperwork Reduction Act of 1996, the NCUA is voluntarily reviewing agency regulations to identify rules that are outdated, unnecessary, or unduly burdensome.",
-      "url": "https://www.federalregister.gov/documents/2026/03/03/2026-04154/regulatory-publication-and-voluntary-review-as-contemplated-by-the-economic-growth-and-regulatory",
-      "published": "2026-03-03",
-      "source": "NCUA — Federal Register",
-      "score": 7.5,
-      "action_type": "rulemaking",
-      "entities": [
-        "Regulatory Publication",
-        "Voluntary Review",
-        "Economic Growth",
-        "Regulatory Paperwork Reduction Act",
-        "Federal Register",
-        "Corporate Credit Unions",
-        "Money Laundering",
-        "Bank Secrecy Act"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "corporate credit union",
-        "rule",
-        "final"
       ],
       "extraction_tier": 0
     },
@@ -247,6 +219,35 @@
       "extraction_tier": 0
     },
     {
+      "title": "Prohibition on the Use of Reputation Risk",
+      "summary": "On October 21, 2025, the Board issued its Notice of Proposed Rulemaking to codify the elimination of reputation risk from its supervisory framework. This change aligns with Executive Order 14331, \"Guaranteeing Fair Banking for All Americans.",
+      "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12856/prohibition-on-the-use-of-reputation-risk",
+      "published": "2026-06-25",
+      "source": "NCUA — Federal Register",
+      "score": 5.0,
+      "action_type": "enforcement",
+      "entities": [
+        "Reputation Risk On October",
+        "Proposed Rulemaking",
+        "Executive Order",
+        "Guaranteeing Fair Banking",
+        "All Americans",
+        "Effective September"
+      ],
+      "dates": [
+        "October 21, 2025",
+        "September 25, 2025"
+      ],
+      "key_terms": [
+        "ncua",
+        "order",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
       "title": "Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines",
       "summary": "On March 11, 2026, the NCUA (or `agency') published a proposed rule to solicit comments on ways to improve and update the vital records preservation program regulation and accompanying guidelines.",
       "url": "https://www.federalregister.gov/documents/2026/06/16/2026-12058/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
@@ -317,24 +318,22 @@
       "extraction_tier": 0
     },
     {
-      "title": "Renewal of Agency Information Collections of Previously Approved Collections; Request for Comments",
-      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
-      "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03802/renewal-of-agency-information-collections-of-previously-approved-collections-request-for-comments",
-      "published": "2026-02-26",
+      "title": "Financial Data Transparency Act Joint Data Standards",
+      "summary": "The OCC, Board, FDIC, NCUA, CFPB, FHFA, CFTC, SEC, and Treasury are publishing a final joint rule to establish data standards to promote interoperability of financial regulatory data across these agencies.",
+      "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12787/financial-data-transparency-act-joint-data-standards",
+      "published": "2026-06-25",
       "source": "NCUA — Federal Register",
-      "score": 4.0,
-      "action_type": "other",
+      "score": 3.5,
+      "action_type": "rulemaking",
       "entities": [
-        "Agency Information Collections",
-        "Previously Approved Collections",
-        "Comments As",
-        "Paperwork Reduction Act",
-        "The National Credit Union Administration"
+        "Financial Data Transparency Act Joint Data Standards The",
+        "Financial Data Transparency Act"
       ],
       "dates": [],
       "key_terms": [
-        "credit union",
-        "ncua"
+        "ncua",
+        "rule",
+        "final"
       ],
       "extraction_tier": 0
     },
