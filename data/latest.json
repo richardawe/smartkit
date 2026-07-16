@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T08:14:41.376063+00:00",
+  "generated_at": "2026-07-16T13:52:12.168413+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
-  "item_count": 17,
+  "item_count": 18,
   "items": [
     {
       "title": "Requirements for Insurance",
@@ -269,6 +269,28 @@
         "rule",
         "proposed",
         "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collections for Comments Request: Proposed Collections",
+      "summary": "The National Credit Union Administration (NCUA) will submit the following information collection requests to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the da",
+      "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14302/renewal-of-agency-information-collections-for-comments-request-proposed-collections",
+      "published": "2026-07-16",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "guidance",
+      "entities": [
+        "Agency Information Collections",
+        "Comments Request",
+        "Proposed Collections The National Credit Union Administration",
+        "Paperwork Reduction Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
       ],
       "extraction_tier": 0
     },
