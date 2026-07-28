@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T02:34:46.144111+00:00",
+  "generated_at": "2026-07-28T08:34:54.838600+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -98,28 +98,6 @@
         "ncua",
         "merger",
         "compliance"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Third-Party Servicing of Indirect Vehicle Loans",
-      "summary": "The NCUA Board (Board) is seeking comment on a proposed rule that would remove the NCUA's unnecessarily prescriptive regulation regarding third-party servicing of indirect vehicle loans.",
-      "url": "https://www.federalregister.gov/documents/2026/03/25/2026-05797/third-party-servicing-of-indirect-vehicle-loans",
-      "published": "2026-03-25",
-      "source": "NCUA — Federal Register",
-      "score": 7.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Party Servicing",
-        "Indirect Vehicle Loans The"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "compliance",
-        "rule",
-        "proposed"
       ],
       "extraction_tier": 0
     },
@@ -336,6 +314,28 @@
         "credit union",
         "ncua",
         "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15196/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
+      "published": "2026-07-28",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "other",
+      "entities": [
+        "Agency Information Collection",
+        "Previously Approved Collection",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
       ],
       "extraction_tier": 0
     },
