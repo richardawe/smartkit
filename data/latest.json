@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:16:40.331472+00:00",
+  "generated_at": "2026-08-25T06:48:13.601414+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -244,30 +244,6 @@
       "extraction_tier": 0
     },
     {
-      "title": "Dependent Care and Board Member Expense Reimbursement",
-      "summary": "The NCUA Board is amending its regulations concerning the reimbursement of reasonable expenses for federal credit union (FCU) officials.",
-      "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11507/dependent-care-and-board-member-expense-reimbursement",
-      "published": "2026-06-09",
-      "source": "NCUA — Federal Register",
-      "score": 6.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Dependent Care",
-        "Board Member Expense Reimbursement The"
-      ],
-      "dates": [
-        "January 26, 2026"
-      ],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "rule",
-        "proposed",
-        "final"
-      ],
-      "extraction_tier": 0
-    },
-    {
       "title": "Credit Union Service Contracts",
       "summary": "The NCUA Board (Board) is revising its regulations governing the organization and operation of federal credit unions (FCUs) by eliminating a provision related to credit union service contracts.",
       "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16021/credit-union-service-contracts",
@@ -443,6 +419,28 @@
         "ncua",
         "rule",
         "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Interagency Rescission of the Interagency Statement on Special Purpose Credit Programs Under the Equal Credit Opportunity Act and Regulation B",
+      "summary": "FDIC, NCUA, OCC, CFPB, HUD, DOJ, and FHFA (collectively, the agencies) are issuing this notice to inform the public of the rescission of the \"Interagency Statement on Special Purpose Credit Programs Under the Equal Credit Opportunity Act and Regulati",
+      "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17307/interagency-rescission-of-the-interagency-statement-on-special-purpose-credit-programs-under-the",
+      "published": "2026-08-25",
+      "source": "NCUA — Federal Register",
+      "score": 2.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Interagency Rescission",
+        "Interagency Statement",
+        "Special Purpose Credit Programs Under",
+        "Equal Credit Opportunity Act"
+      ],
+      "dates": [
+        "February 22, 2022"
+      ],
+      "key_terms": [
+        "ncua"
       ],
       "extraction_tier": 0
     }
