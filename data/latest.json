@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:45:32.972961+00:00",
+  "generated_at": "2026-09-15T11:15:36.874907+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -264,6 +264,27 @@
       "extraction_tier": 0
     },
     {
+      "title": "Proposed Third-Party Risk Management Guidance",
+      "summary": "The OCC, Board, FDIC, and NCUA (collectively, the agencies) invite comments on this proposed third-party risk management guidance.",
+      "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18859/proposed-third-party-risk-management-guidance",
+      "published": "2026-09-15",
+      "source": "NCUA — Federal Register",
+      "score": 5.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Proposed Third",
+        "Party Risk Management Guidance The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "ncua",
+        "compliance",
+        "guidance",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
       "title": "Prohibition on the Use of Reputation Risk",
       "summary": "On October 21, 2025, the Board issued its Notice of Proposed Rulemaking to codify the elimination of reputation risk from its supervisory framework. This change aligns with Executive Order 14331, \"Guaranteeing Fair Banking for All Americans.",
       "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12856/prohibition-on-the-use-of-reputation-risk",
@@ -286,31 +307,6 @@
       "key_terms": [
         "ncua",
         "order",
-        "rule",
-        "proposed",
-        "final"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Records Preservation Program and Appendices-Record Retention Guidelines; Catastrophic Act Preparedness Guidelines",
-      "summary": "On March 11, 2026, the NCUA (or `agency') published a proposed rule to solicit comments on ways to improve and update the vital records preservation program regulation and accompanying guidelines.",
-      "url": "https://www.federalregister.gov/documents/2026/06/16/2026-12058/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
-      "published": "2026-06-16",
-      "source": "NCUA — Federal Register",
-      "score": 5.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Records Preservation Program",
-        "Record Retention Guidelines",
-        "Catastrophic Act Preparedness Guidelines On March"
-      ],
-      "dates": [
-        "March 11, 2026"
-      ],
-      "key_terms": [
-        "ncua",
-        "guidance",
         "rule",
         "proposed",
         "final"
