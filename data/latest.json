@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T15:34:39.265802+00:00",
+  "generated_at": "2026-09-20T20:25:57.519992+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
-  "item_count": 19,
+  "item_count": 20,
   "items": [
     {
       "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 08-2",
@@ -332,6 +332,28 @@
         "credit union",
         "ncua",
         "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19275/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
+      "published": "2026-09-21",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "other",
+      "entities": [
+        "Agency Information Collection",
+        "Previously Approved Collection",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
       ],
       "extraction_tier": 0
     },
