@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T03:45:29.155371+00:00",
+  "generated_at": "2026-10-20T11:01:15.142152+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -310,6 +310,28 @@
       "extraction_tier": 0
     },
     {
+      "title": "Renewal of Agency Information Collections for Comments Request: Proposed Collections",
+      "summary": "The National Credit Union Administration (NCUA) will submit the following information collection requests to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the da",
+      "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21444/renewal-of-agency-information-collections-for-comments-request-proposed-collections",
+      "published": "2026-10-20",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "guidance",
+      "entities": [
+        "Agency Information Collections",
+        "Comments Request",
+        "Proposed Collections The National Credit Union Administration",
+        "Paperwork Reduction Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
       "title": "Proposed Agency Information Collection Activities; Comment Request",
       "summary": "The NCUA has approved the publication of a proposal to revise the NCUA Call Report (Form 5300), which is a currently approved information collection, for public comment.",
       "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20729/proposed-agency-information-collection-activities-comment-request",
@@ -378,28 +400,6 @@
       "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
       "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18224/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
       "published": "2026-09-08",
-      "source": "NCUA — Federal Register",
-      "score": 4.0,
-      "action_type": "other",
-      "entities": [
-        "Agency Information Collection",
-        "Previously Approved Collection",
-        "Comments As",
-        "Paperwork Reduction Act",
-        "The National Credit Union Administration"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
-      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
-      "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15196/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
-      "published": "2026-07-28",
       "source": "NCUA — Federal Register",
       "score": 4.0,
       "action_type": "other",
