@@ -1,10 +1,55 @@
 {
-  "generated_at": "2026-10-21T03:36:34.370175+00:00",
+  "generated_at": "2026-10-21T11:18:25.397293+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
   "item_count": 20,
   "items": [
+    {
+      "title": "Notification to Members/Shareholders",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to streamline the methods a federally insured credit union (FICU) may use to provide its members with notice of share insurance coverage.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21512/notification-to-membersshareholders",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Shareholders The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "compliance",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Conversion to State-Chartered Credit Union",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to remove a regulatory provision regarding the process for maintaining federal share insurance following the conversion of a federal credit union (FCU) to a state charter.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21508/conversion-to-state-chartered-credit-union",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Chartered Credit Union The",
+        "Membership Manual"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "field of membership",
+        "chartering"
+      ],
+      "extraction_tier": 0
+    },
     {
       "title": "Corporate Credit Unions; Fidelity Bond and Insurance Coverage for Federally Insured Credit Unions",
       "summary": "The NCUA Board (Board) seeks comment on proposed amendments to its regulations governing fidelity bond and insurance coverage for federally insured credit unions (FICUs).",
@@ -109,6 +154,27 @@
       "extraction_tier": 0
     },
     {
+      "title": "Nonconforming Investment Special Reserve",
+      "summary": "The NCUA Board (Board) is proposing to amend its regulations governing the requirements for federal share insurance.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21509/nonconforming-investment-special-reserve",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 7.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Nonconforming Investment Special Reserve The",
+        "National Credit Union Share Insurance Fund"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
       "title": "Termination of Excess Insurance Coverage",
       "summary": "The NCUA Board (Board) is amending its regulations that establish the requirements for obtaining and maintaining federal share insurance with the National Credit Union Share Insurance Fund (Share Insurance Fund).",
       "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16026/termination-of-excess-insurance-coverage",
@@ -132,29 +198,6 @@
       "extraction_tier": 0
     },
     {
-      "title": "Corporate Credit Unions",
-      "summary": "The NCUA Board (Board) is issuing this action to rescind its Interpretive Ruling and Policy Statement (IRPS) 11-02, which addresses chartering corporate credit unions, because it is redundant to the Federal Corporate Credit Union Chartering Manual.",
-      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16022/corporate-credit-unions",
-      "published": "2026-08-06",
-      "source": "NCUA — Federal Register",
-      "score": 7.5,
-      "action_type": "other",
-      "entities": [
-        "Corporate Credit Unions The",
-        "Interpretive Ruling",
-        "Policy Statement",
-        "Federal Corporate Credit Union Chartering Manual"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "corporate credit union",
-        "chartering"
-      ],
-      "extraction_tier": 0
-    },
-    {
       "title": "Third-Party Servicing of Indirect Vehicle Loans",
       "summary": "The NCUA Board (Board) is issuing a final rule removing NCUA's unnecessarily prescriptive regulation regarding third-party servicing of indirect vehicle loans.",
       "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16029/third-party-servicing-of-indirect-vehicle-loans",
@@ -173,28 +216,6 @@
         "compliance",
         "rule",
         "final"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Requirements for Insurance",
-      "summary": "The NCUA Board (Board) is amending its regulations that establish the requirements for obtaining and maintaining federal share insurance with the National Credit Union Share Insurance Fund (Share Insurance Fund).",
-      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16023/requirements-for-insurance",
-      "published": "2026-08-06",
-      "source": "NCUA — Federal Register",
-      "score": 7.0,
-      "action_type": "rulemaking",
-      "entities": [
-        "Insurance The",
-        "National Credit Union Share Insurance Fund",
-        "Share Insurance Fund"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "share insurance",
-        "rule"
       ],
       "extraction_tier": 0
     },
@@ -265,26 +286,6 @@
         "rule",
         "proposed",
         "final"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Credit Union Service Contracts",
-      "summary": "The NCUA Board (Board) is revising its regulations governing the organization and operation of federal credit unions (FCUs) by eliminating a provision related to credit union service contracts.",
-      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16021/credit-union-service-contracts",
-      "published": "2026-08-06",
-      "source": "NCUA — Federal Register",
-      "score": 5.5,
-      "action_type": "rulemaking",
-      "entities": [
-        "Credit Union Service Contracts The",
-        "The Board"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "compliance"
       ],
       "extraction_tier": 0
     },
