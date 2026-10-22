@@ -1,8 +1,468 @@
 {
-  "generated_at": "2026-10-22T11:17:04.515427+00:00",
+  "generated_at": "2026-10-22T16:46:31.014796+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
-  "item_count": 0,
-  "items": []
+  "item_count": 20,
+  "items": [
+    {
+      "title": "Notification to Members/Shareholders",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to streamline the methods a federally insured credit union (FICU) may use to provide its members with notice of share insurance coverage.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21512/notification-to-membersshareholders",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Shareholders The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "compliance",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Conversion to State-Chartered Credit Union",
+      "summary": "The NCUA Board (Board) solicits public comment on a proposal to remove a regulatory provision regarding the process for maintaining federal share insurance following the conversion of a federal credit union (FCU) to a state charter.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21508/conversion-to-state-chartered-credit-union",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Chartered Credit Union The",
+        "Membership Manual"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "field of membership",
+        "chartering"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Corporate Credit Unions; Fidelity Bond and Insurance Coverage for Federally Insured Credit Unions",
+      "summary": "The NCUA Board (Board) seeks comment on proposed amendments to its regulations governing fidelity bond and insurance coverage for federally insured credit unions (FICUs).",
+      "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21087/corporate-credit-unions-fidelity-bond-and-insurance-coverage-for-federally-insured-credit-unions",
+      "published": "2026-10-15",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Corporate Credit Unions",
+        "Fidelity Bond",
+        "Insurance Coverage",
+        "Federally Insured Credit Unions The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "corporate credit union",
+        "compliance",
+        "rule",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 08-2",
+      "summary": "The NCUA Board (Board) is rescinding Interpretive Ruling and Policy Statement (IRPS) 08-2.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16031/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-ruling-and-policy",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 8.5,
+      "action_type": "other",
+      "entities": [
+        "Federal Credit Unions",
+        "Interpretive Ruling",
+        "Policy Statement",
+        "The Chartering",
+        "Membership Manual",
+        "Chartering Manual"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "field of membership",
+        "chartering",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 06-1",
+      "summary": "The NCUA Board (Board) is rescinding Interpretive Ruling and Policy Statement (IRPS) 06-1.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16028/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-ruling-and-policy",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 8.5,
+      "action_type": "other",
+      "entities": [
+        "Federal Credit Unions",
+        "Interpretive Ruling",
+        "Policy Statement",
+        "The Chartering",
+        "Membership Manual",
+        "Chartering Manual"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "field of membership",
+        "chartering",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 10-1",
+      "summary": "The NCUA Board (Board) is rescinding Interpretive Ruling and Policy Statement (IRPS) 10-1.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16024/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-ruling-and-policy",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 8.5,
+      "action_type": "other",
+      "entities": [
+        "Federal Credit Unions",
+        "Interpretive Ruling",
+        "Policy Statement",
+        "The Chartering",
+        "Membership Manual",
+        "Chartering Manual"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "field of membership",
+        "chartering",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Nonconforming Investment Special Reserve",
+      "summary": "The NCUA Board (Board) is proposing to amend its regulations governing the requirements for federal share insurance.",
+      "url": "https://www.federalregister.gov/documents/2026/10/21/2026-21509/nonconforming-investment-special-reserve",
+      "published": "2026-10-21",
+      "source": "NCUA — Federal Register",
+      "score": 7.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Nonconforming Investment Special Reserve The",
+        "National Credit Union Share Insurance Fund"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "compliance"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Termination of Excess Insurance Coverage",
+      "summary": "The NCUA Board (Board) is amending its regulations that establish the requirements for obtaining and maintaining federal share insurance with the National Credit Union Share Insurance Fund (Share Insurance Fund).",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16026/termination-of-excess-insurance-coverage",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 7.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Excess Insurance Coverage The",
+        "National Credit Union Share Insurance Fund",
+        "Share Insurance Fund"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "share insurance",
+        "rule",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Third-Party Servicing of Indirect Vehicle Loans",
+      "summary": "The NCUA Board (Board) is issuing a final rule removing NCUA's unnecessarily prescriptive regulation regarding third-party servicing of indirect vehicle loans.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16029/third-party-servicing-of-indirect-vehicle-loans",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 7.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Party Servicing",
+        "Indirect Vehicle Loans The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "compliance",
+        "rule",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Limits on Loans to Other Credit Unions",
+      "summary": "The NCUA Board (Board) is issuing this rule to remove the regulations related to approval and policies on making loans to other credit unions.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16035/limits-on-loans-to-other-credit-unions",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Other Credit Unions The"
+      ],
+      "dates": [
+        "December 29, 2025"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Purchase, Sale, and Pledge Of Eligible Obligations",
+      "summary": "This final rule streamlines the NCUA Board (Board)'s regulations governing the purchase, sale, and pledge of eligible obligations.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16030/purchase-sale-and-pledge-of-eligible-obligations",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Pledge Of Eligible Obligations This"
+      ],
+      "dates": [
+        "February 25, 2026"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Suretyship and Guaranty; Segregated Deposit and Collateral",
+      "summary": "The NCUA Board (Board) is amending its regulations to eliminate prescriptive segregated deposit and collateral requirements for suretyship and guaranty agreements.",
+      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16027/suretyship-and-guaranty-segregated-deposit-and-collateral",
+      "published": "2026-08-06",
+      "source": "NCUA — Federal Register",
+      "score": 6.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Segregated Deposit",
+        "Collateral The"
+      ],
+      "dates": [
+        "December 29, 2025"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Proposed Third-Party Risk Management Guidance",
+      "summary": "The OCC, Board, FDIC, and NCUA (collectively, the agencies) invite comments on this proposed third-party risk management guidance.",
+      "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18859/proposed-third-party-risk-management-guidance",
+      "published": "2026-09-15",
+      "source": "NCUA — Federal Register",
+      "score": 5.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Proposed Third",
+        "Party Risk Management Guidance The"
+      ],
+      "dates": [],
+      "key_terms": [
+        "ncua",
+        "compliance",
+        "guidance",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collections for Comments Request: Proposed Collections",
+      "summary": "The National Credit Union Administration (NCUA) will submit the following information collection requests to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, on or after the da",
+      "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21444/renewal-of-agency-information-collections-for-comments-request-proposed-collections",
+      "published": "2026-10-20",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "guidance",
+      "entities": [
+        "Agency Information Collections",
+        "Comments Request",
+        "Proposed Collections The National Credit Union Administration",
+        "Paperwork Reduction Act"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Proposed Agency Information Collection Activities; Comment Request",
+      "summary": "The NCUA has approved the publication of a proposal to revise the NCUA Call Report (Form 5300), which is a currently approved information collection, for public comment.",
+      "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20729/proposed-agency-information-collection-activities-comment-request",
+      "published": "2026-10-09",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "other",
+      "entities": [
+        "Proposed Agency Information Collection Activities",
+        "Comment Request The",
+        "Call Report"
+      ],
+      "dates": [
+        "March 31, 2027"
+      ],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Powers of Federal Credit Unions",
+      "summary": "The NCUA Board (Board) is proposing to amend the NCUA's regulations regarding incidental powers to clarify that federal credit unions (FCUs) are not required to seek an advisory opinion from the NCUA's Office of General Counsel before petitioning the",
+      "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21088/powers-of-federal-credit-unions",
+      "published": "2026-10-15",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Federal Credit Unions The",
+        "General Counsel"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19275/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
+      "published": "2026-09-21",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "other",
+      "entities": [
+        "Agency Information Collection",
+        "Previously Approved Collection",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
+      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
+      "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18224/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
+      "published": "2026-09-08",
+      "source": "NCUA — Federal Register",
+      "score": 4.0,
+      "action_type": "other",
+      "entities": [
+        "Agency Information Collection",
+        "Previously Approved Collection",
+        "Comments As",
+        "Paperwork Reduction Act",
+        "The National Credit Union Administration"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Central Liquidity Facility",
+      "summary": "The NCUA Board (Board) is proposing to adopt as final the revisions to the Central Liquidity Facility (CLF) rule made under two interim final rules (IFRs) published in the Federal Register on April 29, 2020, and March 24, 2021.",
+      "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21089/central-liquidity-facility",
+      "published": "2026-10-15",
+      "source": "NCUA — Federal Register",
+      "score": 3.5,
+      "action_type": "rulemaking",
+      "entities": [
+        "Central Liquidity Facility The",
+        "Central Liquidity Facility",
+        "Federal Register"
+      ],
+      "dates": [
+        "April 29, 2020",
+        "March 24, 2021"
+      ],
+      "key_terms": [
+        "ncua",
+        "rule",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "Interagency Rescission of the Interagency Statement on Special Purpose Credit Programs Under the Equal Credit Opportunity Act and Regulation B",
+      "summary": "FDIC, NCUA, OCC, CFPB, HUD, DOJ, and FHFA (collectively, the agencies) are issuing this notice to inform the public of the rescission of the \"Interagency Statement on Special Purpose Credit Programs Under the Equal Credit Opportunity Act and Regulati",
+      "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17307/interagency-rescission-of-the-interagency-statement-on-special-purpose-credit-programs-under-the",
+      "published": "2026-08-25",
+      "source": "NCUA — Federal Register",
+      "score": 2.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Interagency Rescission",
+        "Interagency Statement",
+        "Special Purpose Credit Programs Under",
+        "Equal Credit Opportunity Act"
+      ],
+      "dates": [
+        "February 22, 2022"
+      ],
+      "key_terms": [
+        "ncua"
+      ],
+      "extraction_tier": 0
+    }
+  ]
 }
