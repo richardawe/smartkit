@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:24:28.388247+00:00",
+  "generated_at": "2026-10-28T12:14:32.240453+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
@@ -105,32 +105,6 @@
       "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 06-1",
       "summary": "The NCUA Board (Board) is rescinding Interpretive Ruling and Policy Statement (IRPS) 06-1.",
       "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16028/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-ruling-and-policy",
-      "published": "2026-08-06",
-      "source": "NCUA — Federal Register",
-      "score": 8.5,
-      "action_type": "other",
-      "entities": [
-        "Federal Credit Unions",
-        "Interpretive Ruling",
-        "Policy Statement",
-        "The Chartering",
-        "Membership Manual",
-        "Chartering Manual"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua",
-        "field of membership",
-        "chartering",
-        "compliance"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Chartering and Field of Membership for Federal Credit Unions-Interpretive Ruling and Policy Statement 10-1",
-      "summary": "The NCUA Board (Board) is rescinding Interpretive Ruling and Policy Statement (IRPS) 10-1.",
-      "url": "https://www.federalregister.gov/documents/2026/08/06/2026-16024/chartering-and-field-of-membership-for-federal-credit-unions-interpretive-ruling-and-policy",
       "published": "2026-08-06",
       "source": "NCUA — Federal Register",
       "score": 8.5,
@@ -306,6 +280,23 @@
         "ncua",
         "compliance",
         "guidance",
+        "proposed"
+      ],
+      "extraction_tier": 0
+    },
+    {
+      "title": "NCUA Draft 2027-2028 Budget",
+      "summary": "NCUA's draft \"detailed business-type budget\" is being made available for public review as required by federal statute.",
+      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-21948/ncua-draft-2027-2028-budget",
+      "published": "2026-10-28",
+      "source": "NCUA — Federal Register",
+      "score": 4.5,
+      "action_type": "other",
+      "entities": [],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
         "proposed"
       ],
       "extraction_tier": 0
