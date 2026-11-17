@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-11-17T01:39:55.447486+00:00",
+  "generated_at": "2026-11-17T15:35:55.330913+00:00",
   "title": "NCUA Credit Union Monitor",
   "subtitle": "National Credit Union Administration — enforcement, guidance, and rulemaking",
   "schedule_note": "Updated every 6 hours via GitHub Actions",
   "item_count": 19,
   "items": [
+    {
+      "title": "Chartering and Field of Membership for Federal Credit Unions; Associational Common Bonds and Client-Customer Relationships",
+      "summary": "The NCUA Board (Board) is issuing a final rule to amend its criteria for determining associational common bonds.",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23392/chartering-and-field-of-membership-for-federal-credit-unions-associational-common-bonds-and",
+      "published": "2026-11-17",
+      "source": "NCUA — Federal Register",
+      "score": 9.0,
+      "action_type": "rulemaking",
+      "entities": [
+        "Federal Credit Unions",
+        "Associational Common Bonds",
+        "Customer Relationships The",
+        "The Board"
+      ],
+      "dates": [],
+      "key_terms": [
+        "credit union",
+        "ncua",
+        "field of membership",
+        "chartering",
+        "rule",
+        "proposed",
+        "final"
+      ],
+      "extraction_tier": 0
+    },
     {
       "title": "Notification to Members/Shareholders",
       "summary": "The NCUA Board (Board) solicits public comment on a proposal to streamline the methods a federally insured credit union (FICU) may use to provide its members with notice of share insurance coverage.",
@@ -291,28 +317,6 @@
       "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
       "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19275/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
       "published": "2026-09-21",
-      "source": "NCUA — Federal Register",
-      "score": 4.0,
-      "action_type": "other",
-      "entities": [
-        "Agency Information Collection",
-        "Previously Approved Collection",
-        "Comments As",
-        "Paperwork Reduction Act",
-        "The National Credit Union Administration"
-      ],
-      "dates": [],
-      "key_terms": [
-        "credit union",
-        "ncua"
-      ],
-      "extraction_tier": 0
-    },
-    {
-      "title": "Renewal of Agency Information Collection of a Previously Approved Collection; Request for Comments",
-      "summary": "As required by the Paperwork Reduction Act of 1995, The National Credit Union Administration (NCUA) is submitting the following extensions and revisions of currently approved collections to the Office of Management and Budget (OMB) for renewal.",
-      "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18224/renewal-of-agency-information-collection-of-a-previously-approved-collection-request-for-comments",
-      "published": "2026-09-08",
       "source": "NCUA — Federal Register",
       "score": 4.0,
       "action_type": "other",
